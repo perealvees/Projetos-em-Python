@@ -26,9 +26,9 @@ while True:
         print("Parabéns. Acertou!")
         break
     elif answer_user > random_number:
-        print("Esta longe, o número randomico é maior que isso..")
+        print("Esta longe, o número randomico é menor que isso..")
     else:
-        print("Chutou longe, o número randomico é menor que isso..")
+        print("Chutou longe, o número randomico é maior que isso..")
 
 print("N° de tentativas: " + str(n_choices))
 
