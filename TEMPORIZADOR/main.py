@@ -13,10 +13,9 @@ else:
 
 while t: # 0 --> False | 1, 2, ... --> True
     minutes, seconds = divmod(t, 60)
-    timer = f"{minutes}:{seconds}"
+    timer = "{:02d}:{:02d}".format(minutes, seconds)
     print(timer, end="\r")
     time.sleep(1)
-          t = t -1
+t = t-1
 
 print("TEMPO ACABOU!!")
-    
